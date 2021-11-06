@@ -6,4 +6,5 @@
 3. [Insertion Sort](https://github.com/OffTop1/algorithms/blob/main/java/insertion-sort/InsertionSort.java). <br>
 4. Binary Search([Recursive](https://github.com/OffTop1/algorithms/blob/main/java/binary-search/RecursiveBinarySearch.java) && [Iterative](https://github.com/OffTop1/algorithms/blob/main/java/binary-search/BinarySearch.java)). <br>
 5. [Merge Sort](https://github.com/OffTop1/algorithms/blob/main/java/merge-sort/MergeSort.java). Here is Javascript version [Merge Sort with sentinels](https://gist.github.com/OffTop1/a5b6eb73eb85f910e0f0944ba390e258). <br>
-6. [Heap Sort](https://gist.github.com/OffTop1/30676a03792fb01846ac53a23f359141) Javascript version. Java version coming soon. <br>
+6. [Heap Sort](https://github.com/OffTop1/algorithms/blob/main/javascript/heap-sort/implementation.js) Javascript version. Java version coming soon. <br>
+7. [Counting Sort](https://github.com/OffTop1/algorithms/blob/main/javascript/counting-sort/implementation.js) Javascript version. Java version coming soon. <br>
