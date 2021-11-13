@@ -8,3 +8,4 @@
 5. [Merge Sort](https://github.com/OffTop1/algorithms/blob/main/java/merge-sort/MergeSort.java). Here is Javascript version [Merge Sort with sentinels](https://gist.github.com/OffTop1/a5b6eb73eb85f910e0f0944ba390e258). <br>
 6. [Heap Sort](https://github.com/OffTop1/algorithms/blob/main/javascript/heap-sort/implementation.js) Javascript version. Java version coming soon. <br>
 7. [Counting Sort](https://github.com/OffTop1/algorithms/blob/main/javascript/counting-sort/implementation.js) Javascript version. Java version coming soon. <br>
+8. [Quick Sort](https://github.com/OffTop1/algorithms/blob/main/javascript/quick-sort/implementation.js)
