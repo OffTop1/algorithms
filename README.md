@@ -14,3 +14,4 @@
 # Data structures
 1. [Stack](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/stack/implementation.js). <br>
 2. [Singly Linked List](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/implementation.js). <br>
+3. [Binary Search Tree](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/binary-tree/implementation.js). <br>
