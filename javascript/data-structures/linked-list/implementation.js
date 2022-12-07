@@ -1,6 +1,6 @@
 class Node {
     constructor(element) {
-        this.element = element;
+        this.val = element;
         this.next = null;
     }
 }
@@ -14,11 +14,11 @@ class LinkedList {
 
     add(element) {
         const node = new Node(element);
-        if(this.head === null) {
+        if (this.head === null) {
             this.head = node;
         } else {
             let current = this.head
-            while(current.next) {
+            while (current.next) {
                 current = current.next;
             }
             current.next = node;
@@ -27,18 +27,18 @@ class LinkedList {
     }
 
     insertAt(element, index) {
-        if(index < 0 || index > size) {
+        if (index < 0 || index > size) {
             return console.log("Please enter a valid index");
         }
         const node = new Node(element);
-        if(index === 0) {
+        if (index === 0) {
             node.next = this.head;
             this.head = node;
         } else {
             let current = this.head;
             let previous = null;
             let iterator = 0;
-            while(iterator < index) {
+            while (iterator < index) {
                 iterator++;
                 previous = current;
                 current = current.next;
@@ -49,16 +49,16 @@ class LinkedList {
     }
 
     removeFrom(index) {
-        if(index < 0 || index > this.size) {
+        if (index < 0 || index > this.size) {
             return console.log("Please enter a valid index");
         }
         let current = this.head;
-        if(index === 0) {
+        if (index === 0) {
             this.head = current.next;
         } else {
             let previous = null;
             let iterator = 0;
-            while(iterator < index) {
+            while (iterator < index) {
                 iterator++;
                 previous = current;
                 current = current.next;
@@ -66,21 +66,21 @@ class LinkedList {
             previous.next = current.next;
         }
         this.size--;
-        return current.element;
+        return current.val;
     }
 
     removeElement(element) {
         let current = this.head;
         let previous = null;
-        while(current !== null) {
-            if(current.element === element) {
-                if(previous === null) {
+        while (current !== null) {
+            if (current.val === element) {
+                if (previous === null) {
                     this.head = current.next;
                 } else {
                     previous.next = current.next;
                 }
                 this.size--;
-                return current.element;
+                return current.val;
             }
             previous = current;
             current = current.next;
@@ -91,8 +91,8 @@ class LinkedList {
     indexOf(element) {
         let current = this.head;
         let iterator = 0;
-        while(current !== null) {
-            if(current.element === element) {
+        while (current !== null) {
+            if (current.val === element) {
                 return iterator;
             }
             current = current.next;
@@ -112,8 +112,8 @@ class LinkedList {
     deleteDuplicates() {
         let curr = this.head;
         let prev = null;
-        while(curr !== null) {
-            if(prev && curr.val === prev.val) {
+        while (curr !== null) {
+            if (prev && curr.val === prev.val) {
                 prev.next = prev.next.next;
                 curr = prev.next;
             } else {
