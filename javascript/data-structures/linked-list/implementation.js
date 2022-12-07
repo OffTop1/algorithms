@@ -108,6 +108,21 @@ class LinkedList {
     getSize() {
         return this.size;
     }
+
+    deleteDuplicates() {
+        let curr = this.head;
+        let prev = null;
+        while(curr !== null) {
+            if(prev && curr.val === prev.val) {
+                prev.next = prev.next.next;
+                curr = prev.next;
+            } else {
+                prev = curr;
+                curr = curr.next;
+            }
+        }
+        return prev;
+    };
 }
 
 module.exports = LinkedList;
