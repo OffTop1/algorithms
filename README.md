@@ -14,7 +14,8 @@
 # Data structures
 1. [Stack](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/stack/implementation.js). <br>
 2. [Singly Linked List](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/implementation.js).
-   1. [Reorder Linked List](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/problems/reorderList.js)
+   1. [Reorder Linked List](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/problems/reorder-list.js)
    2. [Merge Two Sorted Lists](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/problems/merge-two-sorted-lists.js)
    3. [Remove nth node from end of Linked List](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/problems/remove-nth-node-from-end-of-list.js)
+   4. [Swap node in pairs](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/linked-list/problems/swap-node-in-pairs.js)
 3. [Binary Search Tree](https://github.com/OffTop1/algorithms/blob/main/javascript/data-structures/binary-tree/implementation.js). <br>
